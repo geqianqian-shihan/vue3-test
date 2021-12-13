@@ -1,0 +1,93 @@
+{
+  "id": "1270439",
+  "name": "bugreport",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9685745",
+      "name": "up",
+      "font_class": "up",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "9685676",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9669062",
+      "name": "editLabel",
+      "font_class": "editLabel",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9669051",
+      "name": "addLabe",
+      "font_class": "addLabe",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5772874",
+      "name": "复制",
+      "font_class": "copy",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6899643",
+      "name": "提示",
+      "font_class": "hint",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "6844458",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "7454282",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "9634611",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "5809213",
+      "name": "下箭头",
+      "font_class": "down1",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "6235951",
+      "name": "上箭头",
+      "font_class": "up1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "6056176",
+      "name": "收缩下箭头",
+      "font_class": "more",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 1270439 */
+  src: url('iconfont.woff2?t=1638945012463') format('woff2'),
+       url('iconfont.woff?t=1638945012463') format('woff'),
+       url('iconfont.ttf?t=1638945012463') format('truetype');
+}
+
+/* .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+[class^='el-icon-third'], [class*=' el-icon-third'] {
+  font-family: 'iconfont';
+  font-size: 16px;
+  font-style: normal;
+}
+
+.icon-up:before {
+  content: "\e603";
+}
+
+.icon-down:before {
+  content: "\e602";
+}
+
+.icon-editLabel:before {
+  content: "\e601";
+}
+
+.icon-addLabe:before {
+  content: "\e600";
+}
+
+.icon-copy:before {
+  content: "\e617";
+}
+
+.icon-hint:before {
+  content: "\e6e1";
+}
+
+.icon-close:before {
+  content: "\e641";
+}
+
+.icon-add:before {
+  content: "\e6f1";
+}
+
+.icon-edit:before {
+  content: "\e6f2";
+}
+
+.icon-down1:before {
+  content: "\e69a";
+}
+
+.icon-up1:before {
+  content: "\e604";
+}
+
+.icon-more:before {
+  content: "\e679";
+}
+
