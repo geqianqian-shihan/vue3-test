@@ -36,12 +36,18 @@
         </el-col>
         <el-col :span="20">
             <el-breadcrumb separator="/">
-                <el-breadcrumb-item v-for="(item,index) in breadcrumb" :key="index" :to="{ path: item.path}">{{item.meta.title}}</el-breadcrumb-item>
+                <el-breadcrumb-item
+                    v-for="(item, index) in breadList"
+                    :key="index"
+                    :to="{ path: item.path }"
+                >{{item.meta.title}}</el-breadcrumb-item>
+                <!-- <el-breadcrumb-item v-for="(item,index) in breadcrumb" :key="index" :to="{ path: item.path}">{{item.meta.title}}</el-breadcrumb-item>
                 <el-breadcrumb-item :to="{ path: '/index' }">首页</el-breadcrumb-item>
                 <el-breadcrumb-item><a href="/">promotion management</a></el-breadcrumb-item>
                 <el-breadcrumb-item>promotion list</el-breadcrumb-item>
-                <el-breadcrumb-item>promotion detail</el-breadcrumb-item>
+                <el-breadcrumb-item>promotion detail</el-breadcrumb-item> -->
             </el-breadcrumb>
+            <!-- 字体图标 -->
             <!-- <div style="font-size: 20px;">
                 <edit style="width: 20px; height: 20px; margin-right: 8px;" />
                 <share style="width: 20px; height: 20px; margin-right: 8px;" />
@@ -60,12 +66,30 @@ import { ArrowRight } from '@element-plus/icons'
 export default {
     data(){
         return {
-            breadcrumb: []
+            // 路由集合
+            breadList: []
         }
     },
+    watch: {
+        $route() {
+            this.getBreadcrumb();
+        }
+    },
+    created() {
+        console.log('created');
+        this.getBreadcrumb();
+    },
     mounted(){
-        console.log(this.$router.options);
-        console.log(this.$route.matched);
+        console.log('mounted');
+        // console.log(this.$router.options);
+        // console.log('12312312', this.$route.matched);
+    },
+    methods: {
+        getBreadcrumb(){
+            let mached = this.$route.matched;
+            this.breadList = mached;
+            console.log(mached)
+        }
     }
 }
 </script>

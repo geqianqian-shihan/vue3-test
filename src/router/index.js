@@ -10,7 +10,7 @@ const routes = [
     path: "/",
     name: "Layout",
     component: Layout,
-    mata: { title: 'layout' },
+    meta: { title: 'Layout' },
     children: [
       {
         path: "index",
